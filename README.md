@@ -1,11 +1,12 @@
 # Jadera Jewelry Shop Website
+Project Title: Jetera Jewellery Shop Website and Chatbot
 
-Hi, welcome to my Jadera repository! This is my university project, which is a jewelry website.
+Project Description:
+This is a group project aimed at creating a comprehensive online platform for Jadera Jewellery Shop. The project involves two main components:
 
-## Project Overview
-- **Website:** Built with HTML, CSS, and JavaScript, featuring various products, blogs, testimonials, and more.
-- **Chatbot:** Developed using Python, NLP, and Flask, designed to assist customers with queries related to shipping, promotions, and orders.
+Website: A user-friendly website built using HTML, CSS, and JavaScript to showcase the jewellery collection, provide product information, and facilitate online purchases.
+AI Chatbot: An intelligent chatbot powered by NLTK, NLP, and possibly TensorFlow or PyTorch to provide real-time customer support, answer queries, and assist with the purchasing process.
 
-Both the website and chatbot were built by me to provide customer support and enhance the user experience.
-
-Thank you for visiting!
+Technologies Used:
+Frontend: HTML, CSS, JavaScript
+Backend: (For chatbot integration) NLTK, NLP, TensorFlow/PyTorch (.
