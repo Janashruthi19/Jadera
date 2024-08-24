@@ -1,5 +1,5 @@
 # Jadera Jewelry Shop Website
-Project Title: Jetera Jewellery Shop Website and Chatbot
+Project Title: Jadera Jewellery Shop Website and Chatbot
 
 Project Description:
 This is a group project aimed at creating a comprehensive online platform for Jadera Jewellery Shop. The project involves two main components:
