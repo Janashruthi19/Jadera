@@ -1,3 +1,6 @@
+
+
+
 // Chatbox Class Definition
 class Chatbox {
     constructor() {
@@ -243,14 +246,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function displayFeedbackForm() {
         chatMessages.innerHTML = `
-            <div class="feedback-form">
+                  <div class="feedback-form">
                 <h3>Leave Feedback</h3>
-                <form id="feedbackForm">
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>
-                    <textarea id="message" placeholder="Your Feedback" required></textarea>
-                    <button type="submit">Submit</button>
-                </form>
+                <div class="form-fields">
+                    <form id="feedbackForm">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Feedback" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         `;
 

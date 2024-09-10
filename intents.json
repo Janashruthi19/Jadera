@@ -261,6 +261,39 @@
         "Refunds are processed within 5-7 business days after receiving the returned item. Check our returns policy for more information."
       ],
       "context": "return_policy"
+    },
+    {
+      "tag": "track_order",
+      "patterns": [
+        "track my order",
+        "where is my order",
+        "order status",
+        "track order status",
+        "when will I receive my order",
+        "order update"
+      ],
+      "responses": [
+        "You can track your order by visiting our order tracking page or contacting our customer service.",
+        "To check the status of your order, please visit our order tracking page or contact us.",
+        "We'll send you updates on your order status via email. You can also track your order.",
+        "To track your order, please visit our order tracking page or contact our customer service team."
+      ],
+      "context": "order_tracking"
+    },
+    {
+      
+      "tag":"order_details",
+      "patterns": [
+        "track order by order id ",
+        "give me details of my shipping",
+        "order details"
+      ],
+      "responses": [
+        "To get order details, please visit our order tracking page and enter your order ID.",
+        "You can find your order details on our order tracking page or by contacting our customer service.",
+        "To get order details, please visit our order tracking page and enter your order ID."
+      ],
+      "context": "order_details"
     }
   ]
 }
