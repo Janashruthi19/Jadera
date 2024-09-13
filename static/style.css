@@ -136,10 +136,9 @@ body {
 /* Feedback Form Styling */
 .feedback-form {
     width: 85%;
-    max-height: 300px;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
+    max-height: 400px;
+    
+    
     align-items: flex-start;
 }
 .form-fields {
@@ -176,7 +175,7 @@ body {
     margin-bottom: 0;
 }
 .feedback-form button:hover {
-    background-color: #0056b3;
+    background-color: #479440;
 }
 
 
@@ -266,7 +265,7 @@ body {
     margin-top: 10px;
     background: #E0E0E0;
     padding: 8px 12px;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .messages__item--visitor,

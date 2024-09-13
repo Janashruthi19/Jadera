@@ -45,7 +45,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return "I do not have any specific information about this topic. Please contact <a href='mailto:info@jadera.com.au'>info@jadera.com.au</a> for the further assistance.."
 
 
 if __name__ == "__main__":
